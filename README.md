@@ -20,7 +20,7 @@
 Le jeu de données brut compte **17,6 millions de lignes** (chacune représentant un produit de
 crédit) et **62 colonnes** encodées, pour environ **2,9 millions de clients**. La cible (`flag`)
 est très déséquilibrée (~3,5% de défauts) et définie en réalité **au niveau du client** (elle est
-identique pour toutes les lignes d'un même client — un point central du projet, voir plus bas).
+identique pour toutes les lignes d'un même client, un point central du projet, voir plus bas).
 
 Ce projet reprend et améliore, après la compétition, le travail initial réalisé pendant le Data
 Tour 2025, en intégrant des retours d'expérience et de bonnes pratiques de scoring de crédit
