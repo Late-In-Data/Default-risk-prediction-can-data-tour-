@@ -7,7 +7,7 @@
 ## TL;DR
 
 - **Problème** : prédire si un prêt va faire défaut, à partir de l'historique de crédit d'un client (17,6M lignes, 2,9M clients).
-- **Approche** : un pipeline simple et honnête - feature engineering (historique de paiement, ratios financiers, agrégats client), LightGBM avec hyperparamètres par défaut (aucun réglage arbitraire), validation **groupée et stratifiée par client**. Le notebook démontre d'abord, concrètement, le piège d'un split naïf avant de construire le split correct.
+- **Approche** : un pipeline simple - feature engineering (historique de paiement, ratios financiers, agrégats client), LightGBM avec hyperparamètres par défaut (aucun réglage arbitraire), validation **groupée et stratifiée par client**. Le notebook démontre d'abord, concrètement, le piège d'un split naïf avant de construire le split correct.
 - **Résultat : ROC AUC ≈ 0.685** en validation, un score réaliste, sans exploiter les fuites de données qui gonflent artificiellement certains scores dans ce type de compétition (voir plus bas).
 - **Bonus** : une section dédiée montre, décompose et explique honnêtement le mécanisme derrière les scores > 0.99 parfois observés dans ce type de compétition, plutôt que de l'utiliser pour gonfler le résultat principal.
 
