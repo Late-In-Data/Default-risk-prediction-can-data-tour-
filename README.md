@@ -137,4 +137,4 @@ jupyter notebook notebooks/credit_default_prediction.ipynb
 
 ## Auteur
 
-Laté LAWSON — Data Tour Afrique 2025.
+Laté LAWSON - Data Tour Afrique 2025.
